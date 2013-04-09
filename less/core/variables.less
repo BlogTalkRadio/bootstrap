@@ -6,7 +6,6 @@
 // Global values
 // --------------------------------------------------
 
-
 // Grays
 // -------------------------
 @black:                 #000;
@@ -30,6 +29,11 @@
 @purple:                #7a43b6;
 
 
+// Custom Accent colors
+// -------------------------
+@customBlueDark:        #182f5f;
+
+
 // Scaffolding
 // -------------------------
 @bodyBackground:        @white;
@@ -45,7 +49,10 @@
 // Typography
 // -------------------------
 @sansFontFamily:        "Helvetica Neue", Helvetica, Arial, sans-serif;
-@serifFontFamily:       Georgia, "Times New Roman", Times, serif;
+// @serifFontFamily:       Georgia, "Times New Roman", Times, serif; // Bootstrap original
+@serifFontFamily:       "adelle_thregular", Arial, helvetica, sans-serif;
+@serifBoldFontFamily:   "adelle_sbregular", Arial, helvetica, sans-serif; // BTR bold
+// @FontThinItalic: "adelle_thitalic", Arial, helvetica, sans-serif; // BTR
 @monoFontFamily:        Monaco, Menlo, Consolas, "Courier New", monospace;
 
 @baseFontSize:          14px;
@@ -88,8 +95,10 @@
 @btnBackgroundHighlight:            darken(@white, 10%);
 @btnBorder:                         #ccc;
 
-@btnPrimaryBackground:              @linkColor;
-@btnPrimaryBackgroundHighlight:     spin(@btnPrimaryBackground, 20%);
+// @btnPrimaryBackground:              @linkColor;
+@btnPrimaryBackground:              #e65d09; // BTR Primary color
+// @btnPrimaryBackgroundHighlight:     spin(@btnPrimaryBackground, 20%);
+@btnPrimaryBackgroundHighlight:     @btnPrimaryBackground;
 
 @btnInfoBackground:                 #5bc0de;
 @btnInfoBackgroundHighlight:        #2f96b4;
@@ -117,6 +126,13 @@
 @inputHeight:                   @baseLineHeight + 10px; // base line-height + 8px vertical padding + 2px top/bottom border
 
 
+// Aside Elements
+// -------------------------
+@asideBackgroundPath:		"../img/aside-bg.gif";
+@asideBackgroundColor:		#f6f6f6;
+@asideBorderTopColor: 		#bdc331;
+
+
 // Dropdowns
 // -------------------------
 @dropdownBackground:            @white;
@@ -130,7 +146,6 @@
 
 @dropdownLinkBackgroundActive:  @linkColor;
 @dropdownLinkBackgroundHover:   @dropdownLinkBackgroundActive;
-
 
 
 // COMPONENT VARIABLES
