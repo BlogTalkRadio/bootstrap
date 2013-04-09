@@ -6194,13 +6194,13 @@ a.badge:focus {
 }
 
 .audience .media-list .media:first-child {
-  padding: 0 0 10px 0;
+  padding: 0 0 20px 0;
   margin: 0;
   border-top: none;
 }
 
 .audience .media-list .media {
-  padding: 10px 0;
+  padding: 20px 0;
   margin: 0;
   border-top: 1px #999999 solid;
 }
@@ -6221,6 +6221,38 @@ a.badge:focus {
 .audience .media-list .media-body .actions a {
   font-weight: bold;
   color: #182f5f;
+}
+
+.followers {
+  padding: 10px 0 20px 0;
+  overflow: hidden;
+  border-bottom: 1px #999999 solid;
+}
+
+.followers > div {
+  *zoom: 1;
+}
+
+.followers > div:before,
+.followers > div:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+.followers > div:after {
+  clear: both;
+}
+
+.followers ul {
+  padding: 0;
+  margin: 0;
+}
+
+.followers ul li {
+  float: left;
+  margin: 0 10px 0 0;
+  list-style: none;
 }
 
 .pull-right {
