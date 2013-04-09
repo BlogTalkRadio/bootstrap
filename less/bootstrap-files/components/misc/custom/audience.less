@@ -1,0 +1,59 @@
+
+.audience {
+	padding: 10px;
+
+	background-color: @grayLighter;
+	.border-radius(4px);
+
+	header {
+		.clearfix();
+		margin-bottom: 10px;
+
+		h1 {
+			line-height: inherit; // Overrides the default bootstrap property on h1 elements
+			font-family: @serifFontFamily;
+			font-size: @fontSizeLarge;
+		}
+	}
+
+	// Media list
+	.media-list {
+
+		margin: 0 10px;
+
+		// Media item list
+		.media:first-child {
+			margin: 0;
+			padding: 0 0 10px 0;
+			border-top: none;
+		}
+
+		.media {
+			margin: 0;
+			padding: 10px 0;
+			border-top: 1px @grayLight solid;
+		}
+
+		// Media items
+		.media-body {
+
+			font-size: @fontSizeSmall;
+
+			p {
+				margin: 0;
+			}
+
+			.media-heading {
+				font-family: @serifFontFamily;
+				font-size: @baseFontSize;
+			}
+
+			.actions {
+				a {
+					color: @customBlueDark;
+					font-weight: bold;
+				}
+			}
+		}
+	}
+}
