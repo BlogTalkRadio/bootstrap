@@ -16,7 +16,7 @@
   margin-bottom: 0;
   // Visuals
   .border-radius(@baseBorderRadius);
-  .box-shadow(0 1px 2px rgba(0,0,0,.05));
+  // .box-shadow(0 1px 2px rgba(0,0,0,.05));
 }
 .pagination ul > li {
   display: inline; // Remove list-style and block-level defaults
@@ -24,22 +24,29 @@
 .pagination ul > li > a,
 .pagination ul > li > span {
   float: left; // Collapse white-space
-  padding: 4px 12px;
+  // padding: 4px 12px;
+  margin:0 2px;
+  padding:2px 8px;
   line-height: @baseLineHeight;
   text-decoration: none;
   background-color: @paginationBackground;
   border: 1px solid @paginationBorder;
-  border-left-width: 0;
+  // border-left-width: 0;
+  .border-radius(3px);
+  #gradient > .vertical(#fff, #eaeaea);
 }
 .pagination ul > li > a:hover,
 .pagination ul > li > a:focus,
 .pagination ul > .active > a,
 .pagination ul > .active > span {
-  background-color: @paginationActiveBackground;
+  // background-color: @paginationActiveBackground !important;
+  color: @white;
+  #gradient > .vertical(@paginationActiveBackground, darken(@paginationActiveBackground, 10%));
+  border: 1px solid darken(@paginationActiveBackground, 20%);
 }
 .pagination ul > .active > a,
 .pagination ul > .active > span {
-  color: @grayLight;
+  color: @white;
   cursor: default;
 }
 .pagination ul > .disabled > span,
