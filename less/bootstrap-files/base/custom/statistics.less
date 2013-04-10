@@ -1,0 +1,60 @@
+
+// Util classes for statistics
+.lighter-background (@bgColor, @percentage) {
+	background-color: lighten(@bgColor, @percentage);
+}
+
+// Statistics component
+.statistics, .statistics.primary {
+	.statistics-base();
+}
+.statistics.warning {
+	.statistics-base(@btnWarningBackground);
+}
+.statistics.danger {
+	.statistics-base(@btnDangerBackground);
+}
+.statistics.success {
+	.statistics-base(@btnSuccessBackground);
+}
+.statistics.info {
+	.statistics-base(@btnInfoBackground);
+}
+.statistics.inverse {
+	.statistics-base(@btnInverseBackground);
+}
+
+.statistics-base (@bgColor: @btnPrimaryBackground, @color: white) {
+	
+	color: @color; // font color, black by default 
+	font-family: @serifFontFamily;
+
+	> div {
+		.border-radius(4px);
+		padding: 5px 15px;
+
+		h1, h2, h3 {
+			margin: 0px;
+			line-height: inherit; // Overrides the default bootstrap property on h1 elements
+			font-size: @fontSizeSmall;
+		}
+
+		span {
+			font-size: @fontSizeLarge;
+			font-weight: bold;
+		}
+	}
+
+	.statistic-child(@bgColor, 1);
+	.statistic-child(@bgColor, 2);
+	.statistic-child(@bgColor, 3);
+	.statistic-child(@bgColor, 4);
+	.statistic-child(@bgColor, 5);
+	.statistic-child(@bgColor, 6);
+}
+
+.statistic-child (@bgColor, @number: 1) {
+	& > div:nth-child(@number) {
+		.lighter-background (@bgColor, (@number - 1) * 10px);
+	}
+}

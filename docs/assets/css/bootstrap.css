@@ -2299,6 +2299,312 @@ table th[class*="span"],
   color: #555555;
 }
 
+.statistics,
+.statistics.primary {
+  font-family: "adelle_thregular", Arial, helvetica, sans-serif;
+  color: #ffffff;
+}
+
+.statistics > div,
+.statistics.primary > div {
+  padding: 5px 15px;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+}
+
+.statistics > div h1,
+.statistics.primary > div h1,
+.statistics > div h2,
+.statistics.primary > div h2,
+.statistics > div h3,
+.statistics.primary > div h3 {
+  margin: 0;
+  font-size: 11.9px;
+  line-height: inherit;
+}
+
+.statistics > div span,
+.statistics.primary > div span {
+  font-size: 17.5px;
+  font-weight: bold;
+}
+
+.statistics > div:nth-child(1),
+.statistics.primary > div:nth-child(1) {
+  background-color: #e65d09;
+}
+
+.statistics > div:nth-child(2),
+.statistics.primary > div:nth-child(2) {
+  background-color: #f7792b;
+}
+
+.statistics > div:nth-child(3),
+.statistics.primary > div:nth-child(3) {
+  background-color: #f9985c;
+}
+
+.statistics > div:nth-child(4),
+.statistics.primary > div:nth-child(4) {
+  background-color: #fbb78d;
+}
+
+.statistics > div:nth-child(5),
+.statistics.primary > div:nth-child(5) {
+  background-color: #fcd6bf;
+}
+
+.statistics > div:nth-child(6),
+.statistics.primary > div:nth-child(6) {
+  background-color: #fef5f0;
+}
+
+.statistics.warning {
+  font-family: "adelle_thregular", Arial, helvetica, sans-serif;
+  color: #ffffff;
+}
+
+.statistics.warning > div {
+  padding: 5px 15px;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+}
+
+.statistics.warning > div h1,
+.statistics.warning > div h2,
+.statistics.warning > div h3 {
+  margin: 0;
+  font-size: 11.9px;
+  line-height: inherit;
+}
+
+.statistics.warning > div span {
+  font-size: 17.5px;
+  font-weight: bold;
+}
+
+.statistics.warning > div:nth-child(1) {
+  background-color: #fbb450;
+}
+
+.statistics.warning > div:nth-child(2) {
+  background-color: #fcc982;
+}
+
+.statistics.warning > div:nth-child(3) {
+  background-color: #fddfb3;
+}
+
+.statistics.warning > div:nth-child(4) {
+  background-color: #fef4e5;
+}
+
+.statistics.warning > div:nth-child(5) {
+  background-color: #ffffff;
+}
+
+.statistics.warning > div:nth-child(6) {
+  background-color: #ffffff;
+}
+
+.statistics.danger {
+  font-family: "adelle_thregular", Arial, helvetica, sans-serif;
+  color: #ffffff;
+}
+
+.statistics.danger > div {
+  padding: 5px 15px;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+}
+
+.statistics.danger > div h1,
+.statistics.danger > div h2,
+.statistics.danger > div h3 {
+  margin: 0;
+  font-size: 11.9px;
+  line-height: inherit;
+}
+
+.statistics.danger > div span {
+  font-size: 17.5px;
+  font-weight: bold;
+}
+
+.statistics.danger > div:nth-child(1) {
+  background-color: #ee5f5b;
+}
+
+.statistics.danger > div:nth-child(2) {
+  background-color: #f38c89;
+}
+
+.statistics.danger > div:nth-child(3) {
+  background-color: #f8b9b7;
+}
+
+.statistics.danger > div:nth-child(4) {
+  background-color: #fce6e6;
+}
+
+.statistics.danger > div:nth-child(5) {
+  background-color: #ffffff;
+}
+
+.statistics.danger > div:nth-child(6) {
+  background-color: #ffffff;
+}
+
+.statistics.success {
+  font-family: "adelle_thregular", Arial, helvetica, sans-serif;
+  color: #ffffff;
+}
+
+.statistics.success > div {
+  padding: 5px 15px;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+}
+
+.statistics.success > div h1,
+.statistics.success > div h2,
+.statistics.success > div h3 {
+  margin: 0;
+  font-size: 11.9px;
+  line-height: inherit;
+}
+
+.statistics.success > div span {
+  font-size: 17.5px;
+  font-weight: bold;
+}
+
+.statistics.success > div:nth-child(1) {
+  background-color: #62c462;
+}
+
+.statistics.success > div:nth-child(2) {
+  background-color: #87d287;
+}
+
+.statistics.success > div:nth-child(3) {
+  background-color: #ace0ac;
+}
+
+.statistics.success > div:nth-child(4) {
+  background-color: #d1eed1;
+}
+
+.statistics.success > div:nth-child(5) {
+  background-color: #f6fcf6;
+}
+
+.statistics.success > div:nth-child(6) {
+  background-color: #ffffff;
+}
+
+.statistics.info {
+  font-family: "adelle_thregular", Arial, helvetica, sans-serif;
+  color: #ffffff;
+}
+
+.statistics.info > div {
+  padding: 5px 15px;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+}
+
+.statistics.info > div h1,
+.statistics.info > div h2,
+.statistics.info > div h3 {
+  margin: 0;
+  font-size: 11.9px;
+  line-height: inherit;
+}
+
+.statistics.info > div span {
+  font-size: 17.5px;
+  font-weight: bold;
+}
+
+.statistics.info > div:nth-child(1) {
+  background-color: #5bc0de;
+}
+
+.statistics.info > div:nth-child(2) {
+  background-color: #85d0e7;
+}
+
+.statistics.info > div:nth-child(3) {
+  background-color: #b0e1ef;
+}
+
+.statistics.info > div:nth-child(4) {
+  background-color: #daf1f8;
+}
+
+.statistics.info > div:nth-child(5) {
+  background-color: #ffffff;
+}
+
+.statistics.info > div:nth-child(6) {
+  background-color: #ffffff;
+}
+
+.statistics.inverse {
+  font-family: "adelle_thregular", Arial, helvetica, sans-serif;
+  color: #ffffff;
+}
+
+.statistics.inverse > div {
+  padding: 5px 15px;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+}
+
+.statistics.inverse > div h1,
+.statistics.inverse > div h2,
+.statistics.inverse > div h3 {
+  margin: 0;
+  font-size: 11.9px;
+  line-height: inherit;
+}
+
+.statistics.inverse > div span {
+  font-size: 17.5px;
+  font-weight: bold;
+}
+
+.statistics.inverse > div:nth-child(1) {
+  background-color: #444444;
+}
+
+.statistics.inverse > div:nth-child(2) {
+  background-color: #5e5e5e;
+}
+
+.statistics.inverse > div:nth-child(3) {
+  background-color: #777777;
+}
+
+.statistics.inverse > div:nth-child(4) {
+  background-color: #919191;
+}
+
+.statistics.inverse > div:nth-child(5) {
+  background-color: #aaaaaa;
+}
+
+.statistics.inverse > div:nth-child(6) {
+  background-color: #c3c3c3;
+}
+
 [class^="icon-"],
 [class*=" icon-"] {
   display: inline-block;
