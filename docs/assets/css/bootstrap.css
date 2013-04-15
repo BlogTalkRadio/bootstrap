@@ -2273,6 +2273,38 @@ table th[class*="span"],
   background-color: #c4e3f3;
 }
 
+/* 	The aside element represents a section of a page that consists of content that is
+		tangentially related to the content around the aside element, and which could be 
+		considered separate from that content. Such sections are often represented as 
+		sidebars in printed typography. */
+
+.aside {
+  padding: 10px;
+  background: #f6f6f6 url("../img/aside-bg.gif") repeat 0 0;
+  border: 0;
+  border-top: 4px solid #bdc331;
+}
+
+.aside ~ .aside {
+  margin-top: 40px;
+}
+
+.aside h1,
+.aside h2,
+.aside h3 {
+  font-family: "adelle_thregular", Arial, helvetica, sans-serif;
+  font-size: 17.5px;
+  line-height: inherit;
+  color: #182f5f;
+}
+
+.aside p,
+.aside a,
+.aside div,
+.aside span {
+  color: #555555;
+}
+
 [class^="icon-"],
 [class*=" icon-"] {
   display: inline-block;
