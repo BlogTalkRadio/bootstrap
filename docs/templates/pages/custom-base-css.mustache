@@ -1,0 +1,83 @@
+<!-- Subhead
+================================================== -->
+<header class="jumbotron subhead" id="overview">
+  <div class="container">
+    <h1>{{_i}}Base CSS{{/i}}</h1>
+    <p class="lead">{{_i}}Fundamental HTML elements styled and enhanced with extensible classes.{{/i}}</p>
+  </div>
+</header>
+
+
+  <div class="container">
+
+    <!-- Docs nav
+    ================================================== -->
+    <div class="row">
+      <div class="span3 bs-docs-sidebar">
+        <ul class="nav nav-list bs-docs-sidenav">
+          <li><a href="#aside"><i class="icon-chevron-right"></i> {{_i}}Aside{{/i}}</a></li>
+        </ul>
+      </div>
+      <div class="span9">
+
+
+
+        <!-- Aside Elements
+        ================================================== -->
+        <section id="aside">
+          <div class="page-header">
+            <h1>Aside Elements</h1>
+          </div>
+
+          <h2>Default styles</h2>
+          <p>For basic styling, add the base class <code>.aside</code> to any <code>&lt;aside&gt;</code>.</p>
+          <div class="bs-docs-example">
+            <aside class="aside">
+              <h1>This is the Aside Title</h1>
+              <p>Testing an aside element</p>
+            </aside>
+          </div>
+<pre class="prettyprint linenums">
+&lt;aside class="aside"&gt;
+  …
+&lt;/aside&gt;
+</pre>
+
+          <hr class="bs-docs-separator">
+
+          <h2>Aside with fluid container</h2>
+          <p>Aside at the right side</p>
+          <div class="bs-docs-example">
+            <div class="container-fluid">
+              <div class="row-fluid">
+                <div class="span8">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam commodo ante at est bibendum elementum. Maecenas leo nibh, tristique vitae porta sit amet, laoreet et nibh. Nullam quis egestas felis. Quisque ultricies adipiscing ipsum, at ultricies erat tempor non. Aliquam sodales imperdiet consectetur. Donec quis malesuada libero. Maecenas quis enim. 
+                </div>
+                <aside class="aside span4">
+                  <h1>Some Title</h1>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget eleifend sem. Nullam malesuada, urna vitae pretium pellentesque, nibh augue.</p>
+                </aside>
+              </div>
+            </div>
+          </div>
+<pre class="prettyprint linenums">
+&lt;div class="container-fluid"&gt;  
+  &lt;div class="row-fluid"&gt;  
+    &lt;div class="span8"&gt;
+      …
+    &lt;/div&gt;
+    &lt;aside class="aside span4"&gt;
+      …
+    &lt;/aside&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</pre>
+
+        </section>
+
+
+
+      </div>{{! /span9 }}
+    </div>{{! row}}
+
+  </div>{{! /.container }}
