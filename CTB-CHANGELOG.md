@@ -4,6 +4,7 @@
 - Header styles are using one custom font
 - Makefile changed to add fonts folder in the documentation assets
 - Aside component updated to use custom fonts
+- Folder restructure: ./less/custom => ./less-custom
 
 
 ## 0.0.2
