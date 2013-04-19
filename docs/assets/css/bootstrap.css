@@ -2307,10 +2307,10 @@ table th[class*="span"],
 
 .aside h1,
 .aside h2,
-.aside h3 {
-  font-family: "adelle_thregular", Arial, helvetica, sans-serif;
-  font-size: 17.5px;
-  line-height: inherit;
+.aside h3,
+.aside h4,
+.aside h5,
+.aside h6 {
   color: #182f5f;
 }
 
