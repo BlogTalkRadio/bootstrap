@@ -23,6 +23,7 @@ build:
 	@echo "Compiling LESS with Recess...               ${CHECK} Done"
 	@node docs/build
 	@cp img/* docs/assets/img/
+	@cp fonts/* docs/assets/fonts/ # Included for the Custom build, to add the fonts folder
 	@cp js/*.js docs/assets/js/
 	@cp js/tests/vendor/jquery.js docs/assets/js/
 	@echo "Compiling documentation...                  ${CHECK} Done"
