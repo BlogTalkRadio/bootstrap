@@ -8,6 +8,22 @@
  * Designed and built with all the love in the world @twitter by @mdo and @fat.
  */
 
+@font-face {
+  font-family: 'adelle_sbregular';
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/semibold.eot');
+  src: url('../fonts/semibold.eot?#iefix') format('embedded-opentype'), url('../fonts/semibold.woff') format('woff'), url('../fonts/semibold.ttf') format('truetype'), url('../fonts/semibold.svg#adelle_sbregular') format('svg');
+}
+
+@font-face {
+  font-family: 'adelle_thregular';
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/thin.eot');
+  src: url('../fonts/thin.eot?#iefix') format('embedded-opentype'), url('../fonts/thin.woff') format('woff'), url('../fonts/thin.ttf') format('truetype'), url('../fonts/thin.svg#adelle_thregular') format('svg');
+}
+
 .clearfix {
   *zoom: 1;
 }
@@ -739,7 +755,7 @@ h4,
 h5,
 h6 {
   margin: 10px 0;
-  font-family: inherit;
+  font-family: "adelle_thregular", Arial, helvetica, sans-serif;
   font-weight: bold;
   line-height: 20px;
   color: inherit;
@@ -2291,10 +2307,10 @@ table th[class*="span"],
 
 .aside h1,
 .aside h2,
-.aside h3 {
-  font-family: "adelle_thregular", Arial, helvetica, sans-serif;
-  font-size: 17.5px;
-  line-height: inherit;
+.aside h3,
+.aside h4,
+.aside h5,
+.aside h6 {
   color: #182f5f;
 }
 
