@@ -1,6 +1,6 @@
 
 # Node modules backup
-cp -R node_modules/. ../backup_node_modules
+cp -R node_modules ../backup_node_modules/.
 
 # Generated documentation backup
 cp -R docs/. ../docs-templates
@@ -18,6 +18,5 @@ git push origin
 git checkout master
 
 # Restore node modules
-cp -R node_modules/. ../backup_node_modules
-cp -R ../backup_node_modules/. node_modules/.
+mv ../backup_node_modules/node_modules .
 rm -fr ../backup_node_modules
