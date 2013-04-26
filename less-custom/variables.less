@@ -2,6 +2,10 @@
 // Custom Variables
 // --------------------------------------------------
 
+// Brand colors
+// -------------------------
+@logoPrimaryBrandColor: #09c;
+
 
 // Custom Accent colors
 // -------------------------
@@ -56,4 +60,25 @@
 @asideBackgroundPath:    "../img/aside-bg.gif";
 @asideBackgroundColor:    #f6f6f6;
 @asideBorderTopColor:     #bdc331;
+
+
+// Navbar (only Inverted navbar)
+// -------------------------
+@navbarInverseBackground:                #111111;
+@navbarInverseBackgroundHighlight:       #222222;
+@navbarInverseBorder:                    #252525;
+
+@navbarInverseText:                      @white;
+@navbarInverseLinkColor:                 @white;
+@navbarInverseLinkColorHover:            @logoPrimaryBrandColor;
+@navbarInverseLinkColorActive:           @white;
+@navbarInverseLinkBackgroundHover:       transparent;
+@navbarInverseLinkBackgroundActive:      @navbarInverseBackground;
+
+@navbarInverseSearchBackground:          lighten(@navbarInverseBackground, 25%);
+@navbarInverseSearchBackgroundFocus:     @white;
+@navbarInverseSearchBorder:              @navbarInverseBackground;
+@navbarInverseSearchPlaceholderColor:    #ccc;
+
+@navbarInverseBrandColor:                @navbarInverseLinkColor;
 
