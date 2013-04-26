@@ -5759,6 +5759,10 @@ input[type="submit"].btn.btn-mini {
   color: #e65d09;
 }
 
+.navbar.navbar-inverse.btr-navbar .nav > li > a {
+  padding: 10px 10px 10px;
+}
+
 .modal-backdrop {
   position: fixed;
   top: 0;
