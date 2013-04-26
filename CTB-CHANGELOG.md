@@ -1,3 +1,11 @@
+## 0.0.5
+
+- BTR Navbar custom component
+
+## 0.0.4
+
+- Custom icon fonts
+
 ## 0.0.3
 
 - Custom Fonts added (font folder added to project root folder)
