@@ -2289,6 +2289,38 @@ table th[class*="span"],
   background-color: #c4e3f3;
 }
 
+.brand-color-bkg {
+  background-color: #0088cc;
+}
+
+.brand-color-darker-bkg {
+  background-color: #0a415c;
+}
+
+.brand-color-dark-bkg {
+  background-color: #0b628e;
+}
+
+.brand-color-light-bkg {
+  background-color: #3f7692;
+}
+
+.brand-color-lighter-bkg {
+  background-color: #75b6d7;
+}
+
+.brand-color-pale-bkg {
+  background-color: #ebf8ff;
+}
+
+.brand-color-accent-bkg {
+  background-color: #e65d09;
+}
+
+.brand-color-complement-bkg {
+  background-color: #bdc331;
+}
+
 /* 	The aside element represents a section of a page that consists of content that is
 		tangentially related to the content around the aside element, and which could be 
 		considered separate from that content. Such sections are often represented as 
@@ -2311,7 +2343,7 @@ table th[class*="span"],
 .aside h4,
 .aside h5,
 .aside h6 {
-  color: #182f5f;
+  color: #0a415c;
 }
 
 .aside p,
@@ -2838,6 +2870,45 @@ you can use the generic selector below, but it's slower:
 
 .icon-chevron-right:before {
   content: "\e000";
+}
+
+.tiles {
+  color: #ffffff;
+}
+
+.tiles > div {
+  padding: 5px 20px;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+}
+
+.tiles > div h1,
+.tiles > div h2,
+.tiles > div h3 {
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: inherit;
+}
+
+.tiles > div span {
+  font-family: "adelle_thregular", Arial, helvetica, sans-serif;
+  font-size: 17.5px;
+  font-weight: bold;
+}
+
+.tiles > div:nth-child(1) {
+  background-color: #0a415c;
+}
+
+.tiles > div:nth-child(2) {
+  background-color: #3f7692;
+}
+
+.tiles > div:nth-child(3) {
+  background-color: #75b6d7;
 }
 
 [class^="icon-"],
@@ -5370,7 +5441,7 @@ input[type="submit"].btn.btn-mini {
 .navbar-inverse .nav > li > a:hover,
 .navbar-inverse .brand:focus,
 .navbar-inverse .nav > li > a:focus {
-  color: #0099cc;
+  color: #0088cc;
 }
 
 .navbar-inverse .brand {
@@ -5383,7 +5454,7 @@ input[type="submit"].btn.btn-mini {
 
 .navbar-inverse .nav > li > a:focus,
 .navbar-inverse .nav > li > a:hover {
-  color: #0099cc;
+  color: #0088cc;
   background-color: transparent;
 }
 
@@ -5400,7 +5471,7 @@ input[type="submit"].btn.btn-mini {
 
 .navbar-inverse .navbar-link:hover,
 .navbar-inverse .navbar-link:focus {
-  color: #0099cc;
+  color: #0088cc;
 }
 
 .navbar-inverse .divider-vertical {
@@ -5745,7 +5816,7 @@ input[type="submit"].btn.btn-mini {
 }
 
 .navbar.navbar-inverse.btr-navbar .brand .color-btr {
-  color: #0099cc;
+  color: #0088cc;
 }
 
 .navbar.navbar-inverse.btr-navbar .brand b {
@@ -5757,6 +5828,10 @@ input[type="submit"].btn.btn-mini {
 
 .navbar.navbar-inverse.btr-navbar .nav > li.grand > a {
   color: #e65d09;
+}
+
+.navbar.navbar-inverse.btr-navbar .nav > li > a {
+  padding: 10px 10px 10px;
 }
 
 .modal-backdrop {
