@@ -1,5 +1,6 @@
 
 # Node modules backup
+mkdir ../backup_node_modules
 cp -R node_modules ../backup_node_modules/.
 
 # Generated documentation backup
