@@ -2,14 +2,29 @@
 // Custom Variables
 // --------------------------------------------------
 
-// Brand colors
-// -------------------------
-@logoPrimaryBrandColor: #09c;
 
-
-// Custom Accent colors
+// Brand Colors
 // -------------------------
-@customBlueDark:        #182f5f;
+@brandColor:                    #0088CC; // Blue
+@brandColorDarker:              darken(desaturate(@brandColor,20%), 20%);
+@brandColorDark:                darken(desaturate(@brandColor,15%), 10%);
+@brandColorLight:               lighten(desaturate(@brandColor,60%), 1%);
+@brandColorLighter:             lighten(desaturate(@brandColor,45%), 25%);
+@brandColorPale:                lighten(desaturate(@brandColor,0%), 56%);
+
+@brandColorAccent:              #e65d09; // Orange
+// @brandColorAccentDarker:        darken(desaturate(@brandColorAccent,20%), 20%);
+// @brandColorAccentDark:          darken(desaturate(@brandColorAccent,15%), 10%);
+// @brandColorAccentLight:         lighten(desaturate(@brandColorAccent,60%), 1%);
+// @brandColorAccentLighter:       lighten(desaturate(@brandColorAccent,45%), 25%);
+// @brandColorAccentPale:          lighten(desaturate(@brandColorAccent,0%), 56%);
+
+@brandColorComplement:          #bdc331; // Green
+// @brandColorComplementDarker:    darken(desaturate(@brandColorComplement,20%), 20%);
+// @brandColorComplementDark:      darken(desaturate(@brandColorComplement,15%), 10%);
+// @brandColorComplementLight:     lighten(desaturate(@brandColorComplement,60%), 1%);
+// @brandColorComplementLighter:   lighten(desaturate(@brandColorComplement,45%), 25%);
+// @brandColorComplementPale:      lighten(desaturate(@brandColorComplement,0%), 56%);
 
 
 // Custom font faces
@@ -70,7 +85,7 @@
 
 @navbarInverseText:                      @white;
 @navbarInverseLinkColor:                 @white;
-@navbarInverseLinkColorHover:            @logoPrimaryBrandColor;
+@navbarInverseLinkColorHover:            @brandColor;
 @navbarInverseLinkColorActive:           @white;
 @navbarInverseLinkBackgroundHover:       transparent;
 @navbarInverseLinkBackgroundActive:      @navbarInverseBackground;

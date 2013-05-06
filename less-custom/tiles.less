@@ -1,0 +1,36 @@
+
+// Tiles component to display tabbed information
+
+.tiles {
+	color: @white;
+
+	> div {
+		.border-radius(4px);
+		padding: 5px 20px;
+
+		h1, h2, h3 {
+			margin: 0px;
+			line-height: inherit; // Overrides the default bootstrap property on h1 elements
+
+			font-family: @sansFontFamily;
+			font-size: @baseFontSize;
+			font-weight: normal;
+		}
+
+		span {
+			font-family: @serifFontFamily;
+			font-size: @fontSizeLarge;
+			font-weight: bold;
+		}
+	}
+
+	& > div:nth-child(1) {
+		.brand-color-darker-bkg();
+	}
+	& > div:nth-child(2) {
+		.brand-color-light-bkg();
+	}
+	& > div:nth-child(3) {
+		.brand-color-lighter-bkg();
+	}
+}
