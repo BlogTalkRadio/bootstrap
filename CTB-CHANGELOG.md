@@ -1,10 +1,19 @@
+## 0.0.6
+
+- Custom Palete Color created
+- Tiles component created
+- Changes in components to use Custom Palete Color
+
+
 ## 0.0.5
 
 - BTR Navbar custom component
 
+
 ## 0.0.4
 
 - Custom icon fonts
+
 
 ## 0.0.3
 
