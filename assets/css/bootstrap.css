@@ -2289,6 +2289,38 @@ table th[class*="span"],
   background-color: #c4e3f3;
 }
 
+.brand-color {
+  color: #0088cc;
+}
+
+.brand-color-darker {
+  color: #0a415c;
+}
+
+.brand-color-dark {
+  color: #0b628e;
+}
+
+.brand-color-light {
+  color: #3f7692;
+}
+
+.brand-color-lighter {
+  color: #75b6d7;
+}
+
+.brand-color-pale {
+  color: #ebf8ff;
+}
+
+.brand-color-accent {
+  color: #e65d09;
+}
+
+.brand-color-complement {
+  color: #bdc331;
+}
+
 .brand-color-bkg {
   background-color: #0088cc;
 }
