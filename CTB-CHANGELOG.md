@@ -1,3 +1,8 @@
+## 0.0.7
+
+- Pagination styles customized
+
+
 ## 0.0.6
 
 - Custom Palete Color created
