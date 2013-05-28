@@ -1,6 +1,7 @@
 ## 0.0.7
 
 - Pagination styles customized
+- Custom mixins added
 
 
 ## 0.0.6
