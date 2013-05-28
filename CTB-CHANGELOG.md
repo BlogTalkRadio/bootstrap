@@ -1,3 +1,8 @@
+## 0.0.8
+
+- Icon font classes changed in order to not generate problems with Twitter Bootstrap icons
+
+
 ## 0.0.7
 
 - Pagination styles customized
