@@ -1,3 +1,10 @@
+
+## 0.0.9
+
+- Repo move
+- Button info using custom colors
+
+
 ## 0.0.8
 
 - Icon font classes changed in order to not generate problems with Twitter Bootstrap icons
