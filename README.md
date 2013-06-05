@@ -1,5 +1,5 @@
 
-<a href="http://matiasalvarez87.github.io/bootstrap/">DEMO PAGE: http://matiasalvarez87.github.io/bootstrap/</a>
+<a href="http://nan-labs.com/bootstrap">DEMO PAGE: http://nan-labs.com/bootstrap</a>
 
 
 <a href="http://getbootstrap.com">
