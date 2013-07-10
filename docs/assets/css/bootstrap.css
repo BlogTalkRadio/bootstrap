@@ -2385,6 +2385,18 @@ table th[class*="span"],
   color: #555555;
 }
 
+.box {
+  padding: 10px;
+  background: #fcfcfc url("../img/box-bg.gif") repeat 0 0;
+  border: 1px solid #e2e2e2;
+  -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+          border-radius: 5px;
+  -webkit-box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.25);
+     -moz-box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.25);
+          box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.25);
+}
+
 @font-face {
   font-family: 'blogtalkradio-icons';
   font-style: normal;
