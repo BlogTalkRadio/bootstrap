@@ -1,6 +1,6 @@
 {
   "name": "custom-bootstrap",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "main": ["./docs/assets/js/bootstrap.js", "./docs/assets/css/bootstrap.css"],
   "dependencies": {
     "jquery": "~1.8.0"
